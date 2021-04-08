@@ -1,0 +1,6 @@
+[sshd]
+enabled   = true
+maxretry  = 3
+findtime  = 1d
+bantime   = 4w
+banaction = iptables-multiport
